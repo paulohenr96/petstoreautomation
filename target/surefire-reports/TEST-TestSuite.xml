@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="47.167" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="42.949" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Automation\restassured\PetStoreAutomation\target\test-classes;C:\Automation\restassured\PetStoreAutomation\target\classes;C:\Users\paulo\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\paulo\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\paulo\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\paulo\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\paulo\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\paulo\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\paulo\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\paulo\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\paulo\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\paulo\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\paulo\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\paulo\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\paulo\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\paulo\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\paulo\.m2\repository\org\apache\logging\log4j\log4j-api\2.3.2\log4j-api-2.3.2.jar;C:\Users\paulo\.m2\repository\org\apache\logging\log4j\log4j-core\2.3.2\log4j-core-2.3.2.jar;C:\Users\paulo\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\paulo\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\paulo\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\paulo\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\paulo\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\paulo\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\paulo\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\paulo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\paulo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\paulo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\paulo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\paulo\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\paulo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\paulo\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\paulo\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\paulo\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\paulo\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\paulo\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\paulo\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\paulo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\paulo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\paulo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\paulo\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\paulo\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\paulo\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\paulo\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\paulo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\paulo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\paulo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;"/>
+    <property name="java.class.path" value="C:\Automation\restassured\PetStoreAutomation\target\test-classes;C:\Automation\restassured\PetStoreAutomation\target\classes;C:\Users\paulo\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\paulo\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\paulo\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\paulo\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\paulo\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\paulo\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\paulo\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\paulo\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\paulo\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\paulo\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\paulo\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\paulo\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\paulo\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\paulo\.m2\repository\org\apache\logging\log4j\log4j-api\2.3.2\log4j-api-2.3.2.jar;C:\Users\paulo\.m2\repository\org\apache\logging\log4j\log4j-core\2.3.2\log4j-core-2.3.2.jar;C:\Users\paulo\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\paulo\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\paulo\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\paulo\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\paulo\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\paulo\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\paulo\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\paulo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\paulo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\paulo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\paulo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\paulo\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\paulo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\paulo\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\paulo\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\paulo\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\paulo\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\paulo\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\paulo\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\paulo\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\paulo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\paulo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\paulo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\paulo\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\paulo\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\paulo\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\paulo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\paulo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\paulo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Users\paulo\Downloads\jdk-21_windows-x64_bin\jdk-21.0.5\bin"/>
-    <property name="sun.java.command" value="C:\Users\paulo\AppData\Local\Temp\surefire11880132078597319391\surefirebooter-20250307161402968_3.jar C:\Users\paulo\AppData\Local\Temp\surefire11880132078597319391 2025-03-07T16-14-02_473-jvmRun1 surefire-20250307161402968_1tmp surefire_0-20250307161402968_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\paulo\AppData\Local\Temp\surefire4268139086229309821\surefirebooter-20250308184448515_3.jar C:\Users\paulo\AppData\Local\Temp\surefire4268139086229309821 2025-03-08T18-44-47_959-jvmRun1 surefire-20250308184448515_1tmp surefire_0-20250308184448515_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Automation\restassured\PetStoreAutomation\target\test-classes;C:\Automation\restassured\PetStoreAutomation\target\classes;C:\Users\paulo\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\paulo\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\paulo\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\paulo\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\paulo\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\paulo\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\paulo\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\paulo\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\paulo\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\paulo\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\paulo\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\paulo\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\paulo\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\paulo\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\paulo\.m2\repository\org\apache\logging\log4j\log4j-api\2.3.2\log4j-api-2.3.2.jar;C:\Users\paulo\.m2\repository\org\apache\logging\log4j\log4j-core\2.3.2\log4j-core-2.3.2.jar;C:\Users\paulo\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\paulo\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\paulo\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\paulo\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\paulo\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\paulo\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\paulo\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\paulo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\paulo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\paulo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\paulo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\paulo\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\paulo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\paulo\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\paulo\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\paulo\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\paulo\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\paulo\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\paulo\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\paulo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\paulo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\paulo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\paulo\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\paulo\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\paulo\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\paulo\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\paulo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\paulo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\paulo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Automation\restassured\PetStoreAutomation\target\test-classes;C:\Automation\restassured\PetStoreAutomation\target\classes;C:\Users\paulo\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\paulo\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\paulo\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\paulo\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\paulo\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\paulo\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\paulo\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\paulo\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\paulo\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\paulo\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\paulo\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\paulo\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\paulo\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\paulo\.m2\repository\org\apache\logging\log4j\log4j-api\2.3.2\log4j-api-2.3.2.jar;C:\Users\paulo\.m2\repository\org\apache\logging\log4j\log4j-core\2.3.2\log4j-core-2.3.2.jar;C:\Users\paulo\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\paulo\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\paulo\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\paulo\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\paulo\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\paulo\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\paulo\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\paulo\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\paulo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\paulo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\paulo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\paulo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\paulo\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\paulo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\paulo\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\paulo\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\paulo\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\paulo\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\paulo\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\paulo\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\paulo\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\paulo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\paulo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\paulo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\paulo\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\paulo\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\paulo\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\paulo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\paulo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\paulo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\paulo"/>
     <property name="user.language" value="pt"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\paulo\AppData\Local\Temp\surefire11880132078597319391\surefirebooter-20250307161402968_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\paulo\AppData\Local\Temp\surefire4268139086229309821\surefirebooter-20250308184448515_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
@@ -58,11 +58,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testPostUser" classname="api.test.UserTest2" time="8.297">
-    <system-out><![CDATA[2025-03-07 16:14:08 [main] INFO  api.test.UserTest2 - Creating user
+  <testcase name="testPostUser" classname="api.test.UserTest2" time="5.858">
+    <system-out><![CDATA[2025-03-08 18:44:53 [main] INFO  api.test.UserTest2 - Creating user
 ======== create =====
 HTTP/1.1 200 OK
-Date: Fri, 07 Mar 2025 19:14:15 GMT
+Date: Sat, 08 Mar 2025 21:44:58 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -74,20 +74,20 @@ Server: Jetty(9.2.9.v20150224)
 {
     "code": 200,
     "type": "unknown",
-    "message": "154173878"
+    "message": "551016187"
 }
-2025-03-07 16:14:16 [main] INFO  api.test.UserTest2 - User Created
+2025-03-08 18:44:59 [main] INFO  api.test.UserTest2 - User Created
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testGetUserByName" classname="api.test.UserTest2" time="10.827">
-    <system-out><![CDATA[2025-03-07 16:14:26 [main] INFO  api.test.UserTest2 - Getting user info
+  <testcase name="testGetUserByName" classname="api.test.UserTest2" time="10.809">
+    <system-out><![CDATA[2025-03-08 18:45:09 [main] INFO  api.test.UserTest2 - Getting user info
 ======== read =====
 HTTP/1.1 200 OK
-Date: Fri, 07 Mar 2025 19:14:26 GMT
+Date: Sat, 08 Mar 2025 21:45:10 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -97,23 +97,23 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 154173878,
-    "username": "brinda.boyer",
-    "firstName": "Keiko",
-    "lastName": "O'Reilly",
-    "email": "devin.watsica@example.com",
-    "password": "f6b5gn7e54l",
-    "phone": "776-167-6100",
+    "id": 551016187,
+    "username": "aurelio.franecki",
+    "firstName": "Gregoria",
+    "lastName": "Beahan",
+    "email": "jefferey.dicki@example.com",
+    "password": "w4gn5g7quh6aty",
+    "phone": "207-334-2183",
     "userStatus": 0
 }
-2025-03-07 16:14:27 [main] INFO  api.test.UserTest2 - Got user info
+2025-03-08 18:45:10 [main] INFO  api.test.UserTest2 - Got user info
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateUserByName" classname="api.test.UserTest2" time="11.573">
-    <system-out><![CDATA[2025-03-07 16:14:37 [main] INFO  api.test.UserTest2 - Updating  user
+  <testcase name="testUpdateUserByName" classname="api.test.UserTest2" time="11.496">
+    <system-out><![CDATA[2025-03-08 18:45:20 [main] INFO  api.test.UserTest2 - Updating  user
 ======== update =====
 HTTP/1.1 200 OK
-Date: Fri, 07 Mar 2025 19:14:37 GMT
+Date: Sat, 08 Mar 2025 21:45:20 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -125,16 +125,16 @@ Server: Jetty(9.2.9.v20150224)
 {
     "code": 200,
     "type": "unknown",
-    "message": "154173878"
+    "message": "551016187"
 }
 ======== read =====
-2025-03-07 16:14:39 [main] INFO  api.test.UserTest2 - USer updated
+2025-03-08 18:45:21 [main] INFO  api.test.UserTest2 - USer updated
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUserByName" classname="api.test.UserTest2" time="10.783">
-    <system-out><![CDATA[2025-03-07 16:14:49 [main] INFO  api.test.UserTest2 - Deleting user
+  <testcase name="testDeleteUserByName" classname="api.test.UserTest2" time="10.751">
+    <system-out><![CDATA[2025-03-08 18:45:31 [main] INFO  api.test.UserTest2 - Deleting user
 ======== delete =====
-2025-03-07 16:14:50 [main] INFO  api.test.UserTest2 - User deleted
+2025-03-08 18:45:32 [main] INFO  api.test.UserTest2 - User deleted
 ]]></system-out>
   </testcase>
 </testsuite>
