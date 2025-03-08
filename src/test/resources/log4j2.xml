@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    
+    <!-- Properties -->
+    <properties>
+        <property name="logPattern">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5p %c - %m%n</property>
+        <property name="logFile">logs/application.log</property>
+    </properties>
+    
+    <!-- Appenders -->
+    <appenders>
+        
+        <!-- Console Appender -->
+        <console name="Console" target="SYSTEM_OUT">
+            <patternLayout pattern="${logPattern}"/>
+        </console>
+        
+        <!-- File Appender -->
+        <rollingFile name="File" fileName="${logFile}" filePattern="logs/application-%d{yyyy-MM-dd}.log.gz">
+            <patternLayout pattern="${logPattern}"/>
+            <policies>
+                <sizeBasedTriggeringPolicy size="5MB"/>
+            </policies>
+            <defaultRolloverStrategy max="3"/>
+        </rollingFile>
+        
+    </appenders>
+    
+    <!-- Loggers -->
+    <loggers>
+        <root level="info">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="File"/>
+        </root>
+    </loggers>
+    
+</configuration>

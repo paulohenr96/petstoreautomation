@@ -1,0 +1,40 @@
+2025-03-06 19:34:06 [main] INFO  api.test.UserTest - Creating user
+2025-03-06 19:34:12 [main] INFO  api.test.UserTest - User Created
+2025-03-06 19:34:12 [main] INFO  api.test.UserTest - Getting user info
+2025-03-06 19:34:13 [main] INFO  api.test.UserTest - Updating  user
+2025-03-06 19:34:14 [main] INFO  api.test.UserTest - USer updated
+2025-03-06 19:34:14 [main] INFO  api.test.UserTest - Deleting user
+2025-03-06 19:34:15 [main] INFO  api.test.UserTest - User deleted
+2025-03-07 15:09:11 [main] INFO  api.test.UserTest2 - Creating user
+2025-03-07 15:09:17 [main] INFO  api.test.UserTest2 - User Created
+2025-03-07 15:09:17 [main] INFO  api.test.UserTest2 - Getting user info
+2025-03-07 15:09:18 [main] INFO  api.test.UserTest2 - Updating  user
+2025-03-07 15:09:19 [main] INFO  api.test.UserTest2 - Deleting user
+2025-03-07 15:09:20 [main] INFO  api.test.UserTest2 - User deleted
+2025-03-07 15:18:46 [main] INFO  api.test.UserTest - Creating user
+2025-03-07 15:18:53 [main] INFO  api.test.UserTest - User Created
+2025-03-07 15:18:53 [main] INFO  api.test.UserTest - Getting user info
+2025-03-07 15:18:54 [main] INFO  api.test.UserTest - Got user info
+2025-03-07 15:18:54 [main] INFO  api.test.UserTest - Updating  user
+2025-03-07 15:18:55 [main] INFO  api.test.UserTest - Deleting user
+2025-03-07 15:24:48 [main] INFO  api.test.UserTest2 - Creating user
+2025-03-07 15:24:54 [main] INFO  api.test.UserTest2 - User Created
+2025-03-07 15:24:54 [main] INFO  api.test.UserTest2 - Getting user info
+2025-03-07 15:24:54 [main] INFO  api.test.UserTest2 - Updating  user
+2025-03-07 15:24:56 [main] INFO  api.test.UserTest2 - USer updated
+2025-03-07 15:24:56 [main] INFO  api.test.UserTest2 - Deleting user
+2025-03-07 15:24:57 [main] INFO  api.test.UserTest2 - User deleted
+2025-03-07 15:26:43 [main] INFO  api.test.UserTest2 - Creating user
+2025-03-07 15:26:49 [main] INFO  api.test.UserTest2 - User Created
+2025-03-07 15:26:59 [main] INFO  api.test.UserTest2 - Getting user info
+2025-03-07 15:27:00 [main] INFO  api.test.UserTest2 - Got user info
+2025-03-07 15:27:10 [main] INFO  api.test.UserTest2 - Updating  user
+2025-03-07 15:27:21 [main] INFO  api.test.UserTest2 - Deleting user
+2025-03-07 16:14:08 [main] INFO  api.test.UserTest2 - Creating user
+2025-03-07 16:14:16 [main] INFO  api.test.UserTest2 - User Created
+2025-03-07 16:14:26 [main] INFO  api.test.UserTest2 - Getting user info
+2025-03-07 16:14:27 [main] INFO  api.test.UserTest2 - Got user info
+2025-03-07 16:14:37 [main] INFO  api.test.UserTest2 - Updating  user
+2025-03-07 16:14:39 [main] INFO  api.test.UserTest2 - USer updated
+2025-03-07 16:14:49 [main] INFO  api.test.UserTest2 - Deleting user
+2025-03-07 16:14:50 [main] INFO  api.test.UserTest2 - User deleted
