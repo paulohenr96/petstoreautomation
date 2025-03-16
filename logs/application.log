@@ -76,3 +76,15 @@
 2025-03-16 16:17:10 [main] INFO  api.test.UserTest2 - USer updated
 2025-03-16 16:17:20 [main] INFO  api.test.UserTest2 - Deleting user (herb.gottlieb)
 2025-03-16 16:17:21 [main] INFO  api.test.UserTest2 - User deleted
+2025-03-16 16:20:10 [main] INFO  api.test.UserTest2 - Creating user
+2025-03-16 16:20:18 [main] INFO  api.test.UserTest2 - User Created
+2025-03-16 16:20:28 [main] INFO  api.test.UserTest2 - Getting user (delma.mueller) info
+2025-03-16 16:20:39 [main] INFO  api.test.UserTest2 - Updating  user (delma.mueller)
+2025-03-16 16:20:51 [main] INFO  api.test.UserTest2 - Deleting user (delma.mueller)
+2025-03-16 16:22:26 [main] INFO  api.test.UserTest2 - Creating user
+2025-03-16 16:22:33 [main] INFO  api.test.UserTest2 - User Created
+2025-03-16 16:22:43 [main] INFO  api.test.UserTest2 - Getting user (leonida.daniel) info
+2025-03-16 16:22:54 [main] INFO  api.test.UserTest2 - Updating  user (leonida.daniel)
+2025-03-16 16:22:55 [main] INFO  api.test.UserTest2 - USer updated
+2025-03-16 16:23:05 [main] INFO  api.test.UserTest2 - Deleting user (leonida.daniel)
+2025-03-16 16:23:06 [main] INFO  api.test.UserTest2 - User deleted

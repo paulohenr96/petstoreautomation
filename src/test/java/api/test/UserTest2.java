@@ -98,7 +98,7 @@ public class UserTest2 {
 
 		Response response = UserEndPoints2.deleteUser(username);
 		Assert.assertEquals(response.getStatusCode(), 200);
-		logger.info("User deleted");
+		logger.info("User deleted 123");
 
 	}
 }
