@@ -46,3 +46,33 @@
 2025-03-08 18:45:21 [main] INFO  api.test.UserTest2 - USer updated
 2025-03-08 18:45:31 [main] INFO  api.test.UserTest2 - Deleting user
 2025-03-08 18:45:32 [main] INFO  api.test.UserTest2 - User deleted
+2025-03-16 16:08:10 [main] INFO  api.test.UserTest - Creating user
+2025-03-16 16:08:23 [main] INFO  api.test.UserTest - User Created
+2025-03-16 16:08:23 [main] INFO  api.test.UserTest - Getting user info
+2025-03-16 16:08:24 [main] INFO  api.test.UserTest - Got user info
+2025-03-16 16:08:24 [main] INFO  api.test.UserTest - Updating  user
+2025-03-16 16:08:26 [main] INFO  api.test.UserTest - USer updated
+2025-03-16 16:08:26 [main] INFO  api.test.UserTest - Deleting user
+2025-03-16 16:08:26 [main] INFO  api.test.UserTest - User deleted
+2025-03-16 16:08:27 [main] INFO  api.test.UserTest2 - Creating user
+2025-03-16 16:08:28 [main] INFO  api.test.UserTest2 - User Created
+2025-03-16 16:08:38 [main] INFO  api.test.UserTest2 - Getting user info
+2025-03-16 16:08:48 [main] INFO  api.test.UserTest2 - Updating  user
+2025-03-16 16:08:50 [main] INFO  api.test.UserTest2 - USer updated
+2025-03-16 16:09:00 [main] INFO  api.test.UserTest2 - Deleting user
+2025-03-16 16:09:01 [main] INFO  api.test.UserTest2 - User deleted
+2025-03-16 16:11:03 [main] INFO  api.test.UserTest2 - Creating user
+2025-03-16 16:11:10 [main] INFO  api.test.UserTest2 - User Created
+2025-03-16 16:11:20 [main] INFO  api.test.UserTest2 - Getting user info
+2025-03-16 16:11:31 [main] INFO  api.test.UserTest2 - Updating  user
+2025-03-16 16:11:32 [main] INFO  api.test.UserTest2 - USer updated
+2025-03-16 16:11:42 [main] INFO  api.test.UserTest2 - Deleting user
+2025-03-16 16:11:43 [main] INFO  api.test.UserTest2 - User deleted
+2025-03-16 16:16:42 [main] INFO  api.test.UserTest2 - Creating user
+2025-03-16 16:16:48 [main] INFO  api.test.UserTest2 - User Created
+2025-03-16 16:16:58 [main] INFO  api.test.UserTest2 - Getting user (herb.gottlieb) info
+2025-03-16 16:16:59 [main] INFO  api.test.UserTest2 - Got user info
+2025-03-16 16:17:09 [main] INFO  api.test.UserTest2 - Updating  user (herb.gottlieb)
+2025-03-16 16:17:10 [main] INFO  api.test.UserTest2 - USer updated
+2025-03-16 16:17:20 [main] INFO  api.test.UserTest2 - Deleting user (herb.gottlieb)
+2025-03-16 16:17:21 [main] INFO  api.test.UserTest2 - User deleted

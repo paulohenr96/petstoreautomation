@@ -54,9 +54,9 @@ public class UserTest2 {
 	@Test(priority = 2)
 	public void testGetUserByName() throws InterruptedException {
 		Thread.sleep(10000);
-		logger.info("Getting user info");
-
-		Response response = UserEndPoints2.readUser(this.userPayload.getUsername());
+		String username=this.userPayload.getUsername();
+		logger.info("Getting user ("+username+") info");
+		Response response = UserEndPoints2.readUser(username);
 
 		response.then().log().all();
 		Assert.assertEquals(response.statusCode(), 200);
@@ -67,15 +67,16 @@ public class UserTest2 {
 	@Test(priority = 3)
 	public void testUpdateUserByName() throws InterruptedException {
 		Thread.sleep(10000);
+		String username=this.userPayload.getUsername();
 
-		logger.info("Updating  user");
+		logger.info("Updating  user ("+username+")");
 
 		userPayload.setFirstName(faker.name().firstName());
 		userPayload.setLastName(faker.name().lastName());
 		userPayload.setEmail(faker.internet().safeEmailAddress());
 		
 		
-		Response response = UserEndPoints2.updateUser(this.userPayload.getUsername(),userPayload);
+		Response response = UserEndPoints2.updateUser(username,userPayload);
 		response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), 200);
 		
@@ -91,10 +92,11 @@ public class UserTest2 {
 	public void testDeleteUserByName() throws InterruptedException
 	{
 		Thread.sleep(10000);
+		String username=this.userPayload.getUsername();
 
-		logger.info("Deleting user");
+		logger.info("Deleting user ("+username+")");
 
-		Response response = UserEndPoints2.deleteUser(this.userPayload.getUsername());
+		Response response = UserEndPoints2.deleteUser(username);
 		Assert.assertEquals(response.getStatusCode(), 200);
 		logger.info("User deleted");
 
